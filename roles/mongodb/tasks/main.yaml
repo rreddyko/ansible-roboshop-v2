@@ -23,5 +23,5 @@
   - name: restart mongod
     service:
       name: mongod
-      state: present
+      state: restarted
      
