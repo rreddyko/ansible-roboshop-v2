@@ -3,4 +3,13 @@ ansible_password: "{{ vault_ansible_password }}"
 mysql_root_password: "{{ vault_mysql_password }}"
 rabbitmq_user: "{{ vault_rabbitmq_user }}"
 rabbitmq_password: "{{ vault_rabbitmq_password }}"
+mongodb_host: mongodb.daws92s.store
+redis_host: redis.daws92s.store
+mysql_host: mysql.daws92s.store
+rabbitmq_host: rabbitmq.daws92s.store
+catalogue_host: catalogue.daws92s.store
+user_host: user.daws92s.store
+cart_host: cart.daws92s.store
+shipping_host: shipping.daws92s.store
+payment_host: payment.daws92s.store
 
